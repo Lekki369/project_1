@@ -14,6 +14,13 @@ class Lower extends StatelessWidget {
           width: 150,
           padding: const EdgeInsets.all(10),
           decoration: const BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                spreadRadius: 2,
+                color: Color.fromARGB(255, 1, 243, 110),
+                blurRadius: 20,
+              ),
+            ],
             color: Colors.white,
             borderRadius: BorderRadius.all(
               Radius.circular(10),
@@ -49,6 +56,13 @@ class Lower extends StatelessWidget {
           width: 150,
           padding: const EdgeInsets.all(10),
           decoration: const BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                spreadRadius: 2,
+                color: Color.fromARGB(255, 1, 243, 110),
+                blurRadius: 20,
+              ),
+            ],
             color: Colors.white,
             borderRadius: BorderRadius.all(
               Radius.circular(10),
