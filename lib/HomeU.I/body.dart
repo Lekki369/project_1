@@ -1,8 +1,8 @@
 // ignore_for_file: avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
-import 'package:project_1/HomeU.I/lower_part.dart';
-import 'package:project_1/HomeU.I/upper_part.dart';
+import '/HomeU.I/lower_part.dart';
+import '/HomeU.I/upper_part.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -10,10 +10,17 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      alignment: Alignment.bottomCenter,
-      children: const [
-        Upper(),
-        Lower(),
+      children: [
+        const Upper(),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: const [
+            SizedBox(
+              height: 260,
+            ),
+            Lower(),
+          ],
+        )
       ],
     );
   }

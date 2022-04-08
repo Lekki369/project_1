@@ -14,6 +14,7 @@ class Payout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
+      onTap: () => print('HELLO'),
       child: Container(
         height: 80,
         width: double.infinity,

@@ -1,9 +1,9 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:project_1/Payment/payout.dart';
-import 'package:project_1/Payment/payment.dart';
-import 'package:project_1/HomeU.I/body.dart';
+import '/Payment/payout.dart';
+import '/Payment/payment.dart';
+import '/HomeU.I/body.dart';
 
 void main() {
   runApp(MyApp());
